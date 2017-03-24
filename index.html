@@ -14,20 +14,18 @@
           <div id="headers">
             <div id='headerText'>
               <!-- Title and subtitles! -->
-              <h1>Guessing Game</h1>
-              <i class="fa fa-question-circle" aria-hidden="true"></i>
+              <h1>Guessing Game<i class="fa fa-question-circle" style="display: none" aria-hidden="true"></i> </h1>
               <h2>Guess a number between 1 - 100</h2>
             </div>
           </div>
 
           <div id='main'>
+            <h2>Player's input is as follows</h2>
             <div id='input-parent'>
               <!-- Player's guess input, and submit button -->
-              <h2>Player's input is as follows</h2>
               <form action="#" method="post">
-                <input type="text" placeholder="Number...">
-                <br>
-                <input type="submit" value="Submit">
+                <input class="guessed-number" type="text" placeholder="#">
+                <input class="submit-button" type="submit" value="Go!">
             </form>
             </div>
 

@@ -35,7 +35,7 @@ body{
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.7em;
   margin: 10px 0;
 }
@@ -80,7 +80,9 @@ img {
   padding: 60px 0;
   background: #dde8ec;
   border-radius: 10px;
-  margin: 30px 50px;
+  margin: 15px auto;
+  min-width: 400px;
+  max-width: 600px;
 }
 
 .guess {
@@ -95,19 +97,17 @@ img {
 input[type=text] {
   padding:5px; 
   border:2px solid #ccc; 
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
 }
 
 button {
     margin: 0 5%;
 }
 
-input[type="submit"] {
+/*input[type="submit"] {
     margin: 15px 0 0 0;
-}
+}*/
 
-input[type=submit], button {
+button {
   padding: 15px 100px;
   background: #498eb9;
   border: 0 none;
@@ -129,9 +129,36 @@ li {
 
 /*icons*/
 .fa-question-circle {
-  font-size: 6em;
+  font-size: 1em;
 }
 
 .fa-heart{
   font-size: 0.7em;
+}
+
+.guessed-number {
+  border: 2px solid #ccc;
+  font-family: arial;
+  border-radius: 50%;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  font-size: 60px;
+}
+
+.submit-button {
+  position: absolute;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 25px;
+  bottom: 0;
+  right: 0;
+  border: 1px solid gray;
+}
+
+#input-parent {
+  width: 160px;
+  margin: 5% auto 50px;
+  position: relative;
 }
