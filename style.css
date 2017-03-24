@@ -43,16 +43,12 @@ h1 {
   text-align: center;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  text-decoration: underline;
-  font-size: 25px;
-  margin: 10px;
-}
-
 h2, ul, li {
   padding: 10px 0;
+}
+
+ul {
+  margin-bottom: 0;
 }
 
 h2 {
@@ -80,10 +76,19 @@ img {
 }
 
 #guesses {
-  padding: 5px 0;
+  padding: 60px 0;
   background: #dde8ec;
   border-radius: 10px;
   margin: 30px 50px;
+}
+
+.guess {
+  display: inline;
+  font-size: 60px;
+  border: 1px solid gray;
+  padding: 0 25px;
+  border-radius: 10%;
+  margin: 0 10px;
 }
 
 input[type=text] {
