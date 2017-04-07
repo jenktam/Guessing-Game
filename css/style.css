@@ -146,7 +146,7 @@ li {
   font-size: 60px;
 }
 
-.submit-button {
+#submit-button {
   position: absolute;
   border-radius: 50%;
   width: 60px;

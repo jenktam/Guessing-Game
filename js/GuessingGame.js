@@ -103,3 +103,13 @@ function newGame(){
 // game.playersGuessSubmission(21);
 
 // game.provideHint();
+
+
+$(document).ready(function(){
+  var game = new Game();
+  
+  $('#submit-button').click(function(){
+    console.log('The button was clicked!');
+  });
+
+});
