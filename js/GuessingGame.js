@@ -103,18 +103,6 @@ function newGame(){
 }
 
 
-// game.playersGuessSubmission(11);
-// debugger;
-// game.playersGuessSubmission(11);
-// game.playersGuessSubmission(91);
-// game.playersGuessSubmission(21);
-// game.playersGuessSubmission(21);
-
-// game.playersGuessSubmission(21);
-
-// game.provideHint();
-
-
 // passes guesses into playersGuessSubmission function
 function makeAGuess(game){
   var guess = $('#player-input').val();
