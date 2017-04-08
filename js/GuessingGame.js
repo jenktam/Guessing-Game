@@ -120,7 +120,7 @@ function makeAGuess(game){
 $(document).ready(function(){
   var game = new Game();
   $('#submit-button').click(function(){
-  makeAGuess(game);
+    makeAGuess(game);
 
   
   });
