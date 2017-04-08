@@ -61,6 +61,7 @@ img {
   width: 200px;
   height: 50%;
 }
+
 #footer {
   width: 100%;
   border-top: solid 2px black;
@@ -100,14 +101,7 @@ input[type=text] {
 }
 
 button {
-    margin: 0 5%;
-}
-
-/*input[type="submit"] {
-    margin: 15px 0 0 0;
-}*/
-
-button {
+  margin: 0 5%;
   padding: 15px 100px;
   background: #498eb9;
   border: 0 none;
@@ -119,7 +113,7 @@ button {
   border: 1px solid #8f7f7f;
 }
 
-input[type=submit]:hover, button:hover {
+button:hover{
   background: #117bbd;
 }
 
@@ -136,7 +130,7 @@ li {
   font-size: 0.7em;
 }
 
-.guessed-number {
+#player-input {
   border: 2px solid #ccc;
   font-family: arial;
   border-radius: 50%;
@@ -155,6 +149,12 @@ li {
   bottom: 0;
   right: 0;
   border: 1px solid gray;
+  padding: 5px;
+  background: lightgray;
+}
+
+#submit-button:hover{
+  opacity: 0.9;
 }
 
 #input-parent {
